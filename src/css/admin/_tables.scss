@@ -1,0 +1,38 @@
+//--------------------------------------------------
+// Header
+//--------------------------------------------------
+.table {
+    &.table-a {
+        th {
+            background-color: #F3F2F7;
+            border-top: 1px solid #EBE9F1;
+            color: #5E5873;
+            font-size: .8rem;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.no-decoration {
+    .q-btn-dropdown__arrow {
+        display: none;
+    }
+}
+//--------------------------------------------------
+// Media querys
+//--------------------------------------------------
+/* >= col-lg | Large and up*/
+@media (min-width: 1200px) {
+}
+
+/* == col-md |Medium only col-md */
+@media (min-width: 992px) and(max-width : 1199px) {
+}
+
+/* == col-sm Small only col-sm */
+@media (min-width: 768px) and(max-width : 991px) {
+}
+
+/* < col-sm | Small and down */
+@media (max-width: 767px) {
+}
