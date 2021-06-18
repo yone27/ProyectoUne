@@ -1,0 +1,75 @@
+//--------------------------------------------------
+// Cards
+//--------------------------------------------------
+
+.card {
+    &.card-product {
+        cursor: pointer;
+
+        &:hover {
+            .card-productImg {
+                transform: scale(1.05);
+            }
+            .group-action {
+                transform: translateY(0);
+                bottom: 10px;
+                opacity: 1;
+            }
+        }
+
+        .card-productImg {
+            transition: all 0.3s ease;
+        }
+
+        .shop-action {
+            display: flex;
+            transition: all 0.35s ease;
+            justify-content: center;
+        }
+
+        .group-img {
+            position: relative;
+        }
+
+        .group-action {
+            width: 100%;
+            opacity: 0;
+            bottom: 0;
+            position: absolute;
+            z-index: 3;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    &.card-icon {
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #EBE9F1;
+        border-radius: 0.428rem;
+        box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+        flex-grow: 1;
+
+        .custom-icon {
+            padding: 15px;
+            border-radius: 50%;
+        }
+    }
+}
+
+//--------------------------------------------------
+// Media querys
+//--------------------------------------------------
+/* >= col-lg | Large and up*/
+@media (min-width: 1200px) {
+}
+
+/* == col-md |Medium only col-md */
+@media (min-width: 992px) and(max-width : 1199px) {
+}
+
+/* == col-sm Small only col-sm */
+@media (min-width: 768px) and(max-width : 991px) {
+}
+
+/* < col-sm | Small and down */
+@media (max-width: 767px) {
+}

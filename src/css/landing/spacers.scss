@@ -1,9 +1,13 @@
 //--------------------------------------------------
-// Header
+// Spacers
 //--------------------------------------------------
-.header {
-    &.header-a {
-        background-color: white;
+.spacer {
+    padding: 50px;
+    
+    &.spacer-a {
+        background-color: #fff;
+        border-top: 1px solid #ebe9f1;
+        border-bottom: 1px solid #ebe9f1;
     }
 }
 //--------------------------------------------------

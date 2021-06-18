@@ -1,9 +1,21 @@
 @import "admin/elements";
+@import "landing/elements";
 
-.container{
+.container {
     max-width: 1350px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
+.box-shadow {
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}
 
+.btn {
+    &.btn-custom {
+        border-radius: 10px;
+        color: white;
+        background-color: $primary;
+        box-shadow: 0 4px 18px -4px rgba($primary, 65%);
+    }
+}

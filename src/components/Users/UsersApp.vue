@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <h1 class="text-h4 q-mt-none">Usuarios</h1>
+    <h1 class="text-h4 q-mt-none box-shadow section">Usuarios</h1>
     <users-list />
   </q-page>
 </template>
